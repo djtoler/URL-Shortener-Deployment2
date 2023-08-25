@@ -6,14 +6,14 @@ This is version 1.1 of the application deployment documented --> ([here](https:/
 
 In version 1.1, an error is intentionally implemented into the code so that the deployment to AWS Beanstalk fails. 
 
-# Problem Statement:
+# Purpose:
 
 The application passed the build and test phases in Jenkins but will not successfully deploy to AWS Beanstalk because of the intentional error. The objective is to find the error, fix the error and successfully deploy the application to AWS Beanstalk.
 
-# Solution:
+# Issues:
 Download and look for the error in the log files to fix it, then successfully deploy the application to AWS Beanstalk.
 
-# Results:
+# Steps:
  After reviewing the log files, an error message labeled "ModuleNotFoundError: No module named 'application'" was found. 
 ![aaa.png](https://github-assets-first-deployment.s3.amazonaws.com/1.1/1.1deploymentlogswitharrow.PNG)
 
@@ -33,6 +33,8 @@ mv app.py application.py
 
 ## This rusulted in a successful application deployment to AWS Beanstalk.
 ![aaaaa.png](https://github-assets-first-deployment.s3.amazonaws.com/1.1/1.1BeanstalkBuuildSuccess.PNG) <br><br>
+
+# System Diagram:
 
 # Takeaways:
 <aside>
