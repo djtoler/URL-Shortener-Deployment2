@@ -16,16 +16,11 @@ The purpose of our app is to transform long URLs into concise, user-friendly lin
 # Issues:
 #### *Saving Jenkins username and password:*
 
-##### Be sure to save you Jenkins login information somewhere because you’ll need to log back into your Jenkins account later on. 
-
-##### You can bypass having to login by navigating to the  Jenkins directory by using cd /var/lib/jenkins/. In here, it should be a config.xml file. 
-##### Open that file using sudo nano config.xml. When the file is open look for <useSecurity>true</useSecurity>. Change the word true to false. 
-##### This will temporarily bypass the use of a login page to use Jenkins
+##### Be sure to save you Jenkins login information somewhere because you’ll need to log back into your Jenkins account later on. You can bypass having to login by navigating to the  Jenkins directory by using cd /var/lib/jenkins/. In here, it should be a config.xml file. Open that file using sudo nano config.xml. When the file is open look for <useSecurity>true</useSecurity>. Change the word true to false. This will temporarily bypass the use of a login page to use Jenkins
 
 #### *Installing the Pipeline Utility Steps plug-in to Jenkins*
 
-##### Be sure to install the Pipeline Utility Steps plug-in right after we’ve finished installing Jenkins. 
-##### We won’t be able to successfully build out application in Jenkins because this plugin because this plugin is what allows our Jenkins to work with zip files
+##### Be sure to install the Pipeline Utility Steps plug-in right after we’ve finished installing Jenkins. We won’t be able to successfully build out application in Jenkins because this plugin because this plugin is what allows our Jenkins to work with zip files
 
 # Steps:
 ## 1. [Create a new GitHub repo and download the application files from the source repo](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/Deployment2DownloadUploadFiles.md)
