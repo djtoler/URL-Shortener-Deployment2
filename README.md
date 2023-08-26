@@ -24,7 +24,7 @@ Download and look for the error in the log files to fix it, then successfully de
 # System Diagram:
 ![a.png](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/Deployment2Diagram.drawio.png)
 
-# Takeaways:
+# Optimization:
 <aside>
 ✅ This deployment showed us an example of why we need to be cautious about how we're naming files and ensuring file names are consistent throught our code. Maybe we should add a test that checks and verifys file names throughout the code. Also, the problem could have been solved by changed the name used to deploy the application.
 
