@@ -60,3 +60,8 @@
     ```bash
     git clone https://github.com/djtoler/URL-Shortener-Deployment2
     ```
+
+4. Now our aplication zip file will be in whatever folder we cloned our URL-Shortener-Deployment2 repo in.
+   ```bash
+   #To see what folder we just cloned our repo into.
+   pwd
