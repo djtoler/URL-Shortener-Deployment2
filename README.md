@@ -32,6 +32,10 @@ sudo nano config.xml
 
 ##### Be sure to install the Pipeline Utility Steps plug-in right after we’ve finished installing Jenkins. We won’t be able to successfully build out application in Jenkins because this plugin because this plugin is what allows our Jenkins to work with zip files
 
+### *Sending Application Zip File From EC2 to Local Machine*
+
+##### Make sure port 22 on you local machinr is open and functional for SSH traffic. This will allow you to send files from your EC2 to you local machine simply using the "scp" command. If that cant be done, we can simply clone the repo onto our EC2, copy the file into the cloned repo directory from its Jenkins console output log location and push the changes to update our repo. We can then clone the repo again, but this time, onto our local machine. Now, we will have a the zip file available on our local machine to be uploaded for our AWS Beanstalk deployment 
+
 # Steps:
 ## 1. [Create a new GitHub repo and download the application files from the source repo](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/Deployment2DownloadUploadFiles.md)
 ## 2. [Upload files to the new GitHub you created](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/UploadFilesToGitHub.md)
