@@ -1,7 +1,7 @@
 # How to Extract The New Application Zip File From Your Jenkins Output & Use It In Your AWS Beanstalk Deployment
 
 ## Setting up Git and Pushing Our Application Zip File to GitHub from Our EC2
-#### *WHY: We will use GitHub as the medium to transfer our application file. Although there are more efficent ways to send our application files from our EC2 to our local machine, GitHub is a simpler way for us to get our files to and from where we want them without running into networking and port configuration issues on a machine we didnt configure ourselves*
+#### *WHY: We will use GitHub as the medium to transfer our application file. Although there are more efficent ways to send our application files from our EC2 to our local machine, GitHub is a simpler way for us to get our files to and from where we want them without running into networking and port configuration issues on a machine we didnt configure ourselves.*
 
 1. **Check Git Version**: This will let you know if Git is installed and its version. If its not installed, install it.
     ```bash
