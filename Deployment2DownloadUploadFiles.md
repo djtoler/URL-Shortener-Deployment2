@@ -1,5 +1,5 @@
 ## Creating a GitHub Repository Manually
-#### WHY: This will give us a place to store our application repository.
+#### *WHY: This will give us a place to store our application repository.*
 
 ### 1. **Sign in to GitHub**
 1. Navigate to [GitHub](https://github.com/).
