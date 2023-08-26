@@ -1,5 +1,5 @@
 # How to Manually Upload Files to Your GitHub Directory
-#### *WHY: This is how we will add the files for our URL Shortener Application to our GitHub repo
+#### *WHY: This is how we will add the files for our URL Shortener Application to our GitHub repo*
 
 ## 1. Open Your Repository
 - First, go to [GitHub](https://github.com/), log in and click on the directory we just created.
