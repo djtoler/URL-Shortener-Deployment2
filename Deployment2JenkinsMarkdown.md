@@ -7,15 +7,28 @@ This guide assists with setting up Jenkins on an EC2 instance, installing the "P
 To install Jenkins, follow these steps:
 
 ```bash
+## Update our server
 sudo apt-get update
+
+## Install Java because Jenkins needs Java to run
 sudo apt install openjdk-8-jdk -y
+
+## Install the Jenkins dependencies
 wget -q -O - https://pkg.jenkins.io/debian/jenkins.io.key | sudo apt-key add -
 curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] https://pkg.jenkins.io/debian binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list > /dev/null
+
+## Update our server again after new dependencies are added
 sudo apt-get update
+
+## Install the Java runtime enviornment
 sudo apt-get install fontconfig openjdk-17-jre
+
+## Install & start Jenkins
 sudo apt-get install jenkins
 sudo systemctl start jenkins
+
+## Display our Jenkins admin password
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ````
 
