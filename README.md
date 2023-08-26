@@ -14,7 +14,7 @@ The application passed the build and test phases in Jenkins but will not success
 Download and look for the error in the log files to fix it, then successfully deploy the application to AWS Beanstalk.
 
 # Steps:
-## 1. Create a new GitHub repo
+## 1. [Create a new GitHub repo and download the application files from the source repo](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/Deployment2DownloadUploadFiles.md)
 ## 2. [Download files from this repo](https://github.com/kura-labs-org/C4_deployment-2/tree/main)
 ## 3. Upload files to the GitHub repo you created
 ## 4. [Set Up Jenkins with Python on an EC2 instance](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/Deployment2JenkinsMarkdown.md)
