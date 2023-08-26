@@ -65,6 +65,8 @@ sudo nano config.xml
    #check and make sure the file has been copied
    
    ls
+   ````
+4. Finally, I would automate the enviornment configuration and deployment of our AWS Beanstalk application using the AWS CLI
 
 </aside>
 
