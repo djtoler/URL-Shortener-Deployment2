@@ -8,7 +8,7 @@
     git --version
     ```
 
-2. **Set Global Git Configuration**:
+2. **Set Your Git Configuration**:
     ```bash
     git config --global user.name "your_GitHub_username"
     git config --global user.email "the_email_associated_with_your_GitHub"
