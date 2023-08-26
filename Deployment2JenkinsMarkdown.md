@@ -3,6 +3,7 @@
 This guide assists with setting up Jenkins on an EC2 instance, installing the "Pipeline Utility Steps" plugin for Jenkins, and setting up Python.
 
 ## 1. Install Jenkins
+#### *WHY: Jenkins is the tool we will use to build and test our application before deploying it tp production*
 
 To install Jenkins, follow these steps:
 
@@ -44,7 +45,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 7. Click on the "Install without restart" button.
 
 ## 3. Install Python
-#### *WHY: We need Python installed on our machine to run our application because our application is written in Python*
+#### *WHY: We need Python installed on our machine to run our application because our application is written in Python. The Python version we will be using will give us the dependencies and libraries we need for our application code to function as expected*
 
 To install Python on your EC2 instance, execute the following commands:
 
@@ -58,7 +59,7 @@ python3.10 --version
 
 
 ## 4. Create a Jenkins Build
-#### *WHY: This will allow is to run our Jenkins build before deploying our application to AWS Beanstalk*
+#### *WHY: This will allow us to run our Jenkins build & test before deploying our application to AWS Beanstalk. We need to do this to make sure our application is functioning as we intend for it to before deploying it to production*
 
 ### 1. **Set Up New Item**
 1. Click on 'New Item'.
