@@ -22,7 +22,7 @@ Download and look for the error in the log files to fix it, then successfully de
 ## 6. [Deploy the application on AWS Beanstalk](https://scribehow.com/shared/How_to_Create_and_Deploy_a_Python_URL_Shortener_on_AWS_Elastic_Beanstalk__MS9pB8lfRaGFiKAq2FU-cw) 
 
 # System Diagram:
-![a.png](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/Deployment2Diagram.drawio.png)
+![a.png]https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/Deployment2Diagram2.drawio.png)
 
 # Optimization:
 <aside>
