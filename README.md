@@ -16,7 +16,17 @@ The purpose of our app is to transform long URLs into concise, user-friendly lin
 # Issues:
 #### *Saving Jenkins username and password:*
 
-##### Be sure to save you Jenkins login information somewhere because you’ll need to log back into your Jenkins account later on. You can bypass having to login by navigating to the  Jenkins directory by using cd /var/lib/jenkins/. In here, it should be a config.xml file. Open that file using sudo nano config.xml. When the file is open look for <useSecurity>true</useSecurity>. Change the word true to false. This will temporarily bypass the use of a login page to use Jenkins
+##### Be sure to save you Jenkins login information somewhere because you’ll need to log back into your Jenkins account later on. You can bypass having to login by navigating to the  Jenkins directory by using 
+````
+cd /var/lib/jenkins/
+````
+
+##### In here, it should be a config.xml file. Open that file using 
+````
+sudo nano config.xml
+````
+
+##### When the file is open look for *<useSecurity>true</useSecurity>*. Change the word 'true' to 'false'. This will temporarily bypass the use of a login page to use Jenkins
 
 #### *Installing the Pipeline Utility Steps plug-in to Jenkins*
 
