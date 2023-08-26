@@ -17,7 +17,7 @@
 5. Click on 'Create repository'.
 
 ## Downloading the application ZIP File from the source repository
-#### WHY: This is where we will get our initial URL application files from.
+#### *WHY: This is where we will get our initial URL application files from.*
 
 ### 1. **Navigate to the Repository**
 1. Go to [this repo that has the application files youre going to download](https://github.com/kura-labs-org/C4_deployment-2).
