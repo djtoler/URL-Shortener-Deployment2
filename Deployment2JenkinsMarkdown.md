@@ -17,6 +17,7 @@ sudo apt-get install fontconfig openjdk-17-jre
 sudo apt-get install jenkins
 sudo systemctl start jenkins
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+````
 
 ## 2. Install Jenkins "Pipeline Utility Steps" Plugin
 
@@ -38,6 +39,7 @@ sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt-get update
 sudo apt-get install python3.10 python3.10-venv
 python3.10 --version
+````
 
 
 ## Create a Jenkins Build
