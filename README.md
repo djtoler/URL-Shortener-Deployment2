@@ -46,7 +46,7 @@ sudo nano config.xml
 <aside>
 ✅ To optimize this deployment, I would do several things. 
 
-1. I would automate the creation or our GirHub repo and the downloading of our application files using a bash script
+1. I would automate the creation or our GirHub repo and the downloading of our application files using a bash script using [these commands I've tried](https://github.com/djtoler/firstDeploymentAutomated)
 2. I would automate the build set up of our Jenkins pipeline and the installation of Jenkins and Python on our EC2 instance. I would use a bash script for this too.
 3. I would use a bash script to extact the appocation zip file that Jenkins makes after a successful build. I've tested these commands and they work
    ````
