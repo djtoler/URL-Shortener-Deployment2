@@ -43,6 +43,11 @@ sudo nano config.xml
 ## 4. [Extract the zip file that Jenkins will create](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/ExtractZipFromJenkins.md)
 ## 5. [Deploy the application on AWS Beanstalk](https://scribehow.com/shared/How_to_Create_and_Deploy_a_Python_URL_Shortener_on_AWS_Elastic_Beanstalk__MS9pB8lfRaGFiKAq2FU-cw) 
 
+## Your successful deployment in the AWS Beanstalk console should look like this...
+| GitHub Version                      | 1.0.0.1 Zip File Version                               |
+| ----------------------------------- | ----------------------------------- |
+| ![aaaaaa.png](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/Success%20Screenshots/BeanstalkSuccessHealthOk.PNG) | ![aaaaaa.png](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/Success%20Screenshots/BeanstalkSuccessHealthOk1.0.0.1.PNG) |
+
 # System Diagram:
 ![a.png](https://github.com/djtoler/URL-Shortener-Deployment2/blob/main/Deployment2Diagram2.drawio.png)
 
