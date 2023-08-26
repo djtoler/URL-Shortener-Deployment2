@@ -42,7 +42,7 @@
     git push
     ```
 
-## Setting up Git and Pulling Our Application Zip File to GitHub from Our Local Machine
+## Setting up Git and Pulling Our Application Zip File from GitHub to Our Local Machine
 
 1. **Check Git Version**: This will let you know if Git is installed and its version. If its not installed, install it.
     ```bash
