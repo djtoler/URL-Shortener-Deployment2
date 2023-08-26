@@ -33,7 +33,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ````
 
 ## 2. Install Jenkins "Pipeline Utility Steps" Plugin
-#### * WHY: This plugin will allow us to work with our zipped application files*
+#### *WHY: This plugin will allow us to work with our zipped application files*
 
 1. Open your Jenkins dashboard.
 2. Navigate to "Manage Jenkins" from the sidebar.
@@ -44,7 +44,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 7. Click on the "Install without restart" button.
 
 ## 3. Install Python
-#### * WHY: We need Python installed on our machine to run our application because our application is written in Python*
+#### *WHY: We need Python installed on our machine to run our application because our application is written in Python*
 
 To install Python on your EC2 instance, execute the following commands:
 
@@ -58,7 +58,7 @@ python3.10 --version
 
 
 ## 4. Create a Jenkins Build
-#### * WHY: This will allow is to run our Jenkins build before deploying our application to AWS Beanstalk*
+#### *WHY: This will allow is to run our Jenkins build before deploying our application to AWS Beanstalk*
 
 ### 1. **Set Up New Item**
 1. Click on 'New Item'.
