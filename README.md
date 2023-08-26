@@ -44,7 +44,27 @@ sudo nano config.xml
 
 # Optimization:
 <aside>
-✅ This deployment showed us an example of why we need to be cautious about how we're naming files and ensuring file names are consistent throught our code. Maybe we should add a test that checks and verifys file names throughout the code. Also, the problem could have been solved by changed the name used to deploy the application.
+✅ To optimize this deployment, I would do several things. 
+
+1. I would automate the creation or our GirHub repo and the downloading of our application files using a bash script
+2. I would automate the build set up of our Jenkins pipeline and the installation of Jenkins and Python on our EC2 instance. I would use a bash script for this too.
+3. I would use a bash script to extact the appocation zip file that Jenkins makes after a successful build. I've tested these commands and they work
+   ````
+   #store the output of out command in a variable named "zip_file_path". Use the "grep" command to find the zip file if its stored in its usual location of "var/lib/jenkins/workspace/" and search for it in "/var/lib/jenkins/jobs/Deployment2/builds/1/log"
+   
+   zip_file_path=$(grep -o '/var/lib/jenkins/workspace/[^ ]*.zip' /var/lib/jenkins/jobs/Deployment2/builds/1/log)
+   
+   #copy the file into our URL shortner app directory using the "cp" command.
+   
+   cp "$zip_file_path" /home/ubuntu/URL-Shortener-Deployment2/
+   
+   #navigate into the folder where the file should have been copied to
+   
+   cd /home/ubuntu/URL-Shortener-Deployment2/
+   
+   #check and make sure the file has been copied
+   
+   ls
 
 </aside>
 
