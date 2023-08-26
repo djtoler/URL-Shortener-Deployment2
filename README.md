@@ -1,3 +1,5 @@
+![a.png](https://github-assets-first-deployment.s3.amazonaws.com/1.1/urlshortener.PNG)
+
 # Purpose:
 
 The purpose of our app is to transform long URLs into concise, user-friendly links. This encourages sharing and usability. We use Jenkins to enforce deployments with no errors, while AWS Beanstalk makes sure our application is always available by managing and auto-scaling our infastructure. These tools give us the potential to solve a business problem and optimize our workflow.
