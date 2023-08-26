@@ -14,7 +14,7 @@ The purpose of our app is to transform long URLs into concise, user-friendly lin
   ##### Managing the infrastructure for continuous application deployment can time consuming and complex. And the more complex it is, the more it will cost. AWS Beanstalk handles our applications infrastructure management. This allows us to focus on coding and implementing features while still ensuring our application will scale and be available for our users.
 
 # Issues:
-#### *Saving Jenkins username and password:*
+### *Saving Jenkins username and password:*
 
 ##### Be sure to save you Jenkins login information somewhere because you’ll need to log back into your Jenkins account later on. You can bypass having to login by navigating to the  Jenkins directory by using 
 ````
@@ -28,7 +28,7 @@ sudo nano config.xml
 
 ##### When the file is open look for *<useSecurity>true</useSecurity>*. Change the word 'true' to 'false'. This will temporarily bypass the use of a login page to use Jenkins
 
-#### *Installing the Pipeline Utility Steps plug-in to Jenkins*
+### *Installing the Pipeline Utility Steps plug-in to Jenkins*
 
 ##### Be sure to install the Pipeline Utility Steps plug-in right after we’ve finished installing Jenkins. We won’t be able to successfully build out application in Jenkins because this plugin because this plugin is what allows our Jenkins to work with zip files
 
