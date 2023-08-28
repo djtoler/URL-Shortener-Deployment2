@@ -2,7 +2,7 @@
 
 # Purpose:
 
-The purpose of our app is to transform long URLs into concise, user-friendly links. This encourages sharing and usability. We use Jenkins to enforce deployments with no errors, while AWS Beanstalk makes sure our application is always available by managing and auto-scaling our infastructure. These tools give us the potential to solve a business problem and optimize our workflow.
+The purpose of our app is to transform long URLs into concise, user-friendly links. This encourages sharing and usability. We use Jenkins to enforce deployments with no errors, while AWS Beanstalk makes sure our application is always available by managing and auto-scaling our infastructure. These tools give us the potential to solve a user engagement related business problems and optimize our workflow.
 
   #### *URL Shortener:*
   ##### URLs can be too long and not user-friendly sometimes. A URL shortener solves this by converting long URLs into shorter, more manageable URLs. This creates more user engagement because smaller URLs are more usable and more likely to be shared. Our tradeoff is that shortened URLs are associated with viruses and bad websites but users are becoming more accustomed to seeing shortened URLs and we'll get more engagement.
